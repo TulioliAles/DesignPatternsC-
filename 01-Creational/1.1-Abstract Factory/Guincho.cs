@@ -17,8 +17,6 @@ namespace DesignPatterns._01_Creational._1._1_Abstract_Factory
         public Porte Porte { get; set; }
     }
 
-    public enum Porte { Pequeno, Medio, Grande }
-
     public class GuinchoPequeno : Guincho
     {
         public GuinchoPequeno(Porte porte) : base(porte) { }

@@ -8,6 +8,7 @@ namespace DesignPatterns._01_Creational._1._1_Abstract_Factory
     {
         public static void Executar()
         {
+            
             var veiculosSocorro = new List<Veiculo>
             {
                 VeiculoCreator.Criar("Celta", Porte.Pequeno),
